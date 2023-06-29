@@ -11,5 +11,4 @@
       <p class="text-blue-500">555-555-5555</p>
     </div>
   </div>
-      </div>
 </template>
