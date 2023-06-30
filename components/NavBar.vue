@@ -15,5 +15,14 @@
     "
   >
     <NuxtLink class="text-3xl font-mono" to="/">cartrader</NuxtLink>
+    <div v-if="user" class="flex">
+      <NuxtLink to="/profile/listings" class="mr-5">Profile</NuxtLink>
+      <p class="cursor-pointer">Logout</p>
+    </div>
+    <NuxtLink v-else to="/login">Login</NuxtLink>
   </header>
 </template>
+
+<script setup>
+const user = useSupabaseUser()
+</script>
