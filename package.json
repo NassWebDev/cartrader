@@ -8,12 +8,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-<<<<<<< HEAD
-    "@nuxtjs/supabase": "^0.3.0",
-    "nuxt": "3.0.0"
-=======
     "nuxt": "^3.6.1"
->>>>>>> 7808ffd85188ce0731a315639c116aa5a4a2819b
   },
   "dependencies": {
     "@nuxt/image-edge": "^1.0.0-rc.1-28126030.07836ae",
