@@ -14,6 +14,7 @@
     "@nuxt/image-edge": "^1.0.0-rc.1-28126030.07836ae",
     "@nuxtjs/supabase": "^0.3.7",
     "@nuxtjs/tailwindcss": "^6.8.0",
-    "@vueuse/nuxt": "^9.13.0"
+    "@vueuse/nuxt": "^9.13.0",
+    "prisma": "^4.16.2"
   }
 }
